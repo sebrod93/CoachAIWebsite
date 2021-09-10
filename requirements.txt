@@ -1,0 +1,34 @@
+# packaging
+pip>=9
+setuptools>=26
+twine
+wheel>=0.29
+
+# data science
+numpy
+pandas
+scikit-learn
+matplotlib
+scipy
+
+# tests/linter
+black
+coverage
+flake8
+pytest
+yapf
+
+# utilities
+six>=1.14
+joblib
+memoized-property
+termcolor
+
+streamlit
+opencv-python
+uvicorn
+python-multipart
+mediapipe
+streamlit_webrtc
+watchdog
+Pillow

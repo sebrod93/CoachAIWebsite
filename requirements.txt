@@ -23,12 +23,10 @@ six>=1.14
 joblib
 memoized-property
 termcolor
-
 streamlit
 opencv-python-headless
 uvicorn
 python-multipart
 mediapipe
 streamlit_webrtc
-watchdog
-Pillow
+

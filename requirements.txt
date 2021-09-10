@@ -25,7 +25,7 @@ memoized-property
 termcolor
 
 streamlit
-opencv-python-headless
+opencv-python-headless == 4.2.0.32
 uvicorn
 python-multipart
 mediapipe

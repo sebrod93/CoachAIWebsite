@@ -68,7 +68,6 @@ if app_mode == 'Run on Video':
         frame_height = int(vf.get(4))
         fps = int(vf.get(cv2.CAP_PROP_FPS))
         inflnm, inflext = video.name.split('.')
-        exercise_name = inflnm.split('_')[1]
         annotated_filename = f'{inflnm}_annotated.{inflext}'
         out_annotated = cv2.VideoWriter(annotated_filename,
                                         cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'),

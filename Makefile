@@ -37,3 +37,10 @@ clean:
 	@rm -fr *.dist-info
 	@rm -fr *.egg-info
 	-@rm model.joblib
+
+run-container:
+	@docker build . -t coachaiweb
+	@docker run -p 8080:8080 coachaiweb
+
+gcloud-deploy:
+	@gcloud app deploy app.yaml

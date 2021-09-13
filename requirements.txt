@@ -27,4 +27,4 @@ opencv-python-headless
 python-multipart
 mediapipe
 streamlit_webrtc
-
+google-cloud-storage
